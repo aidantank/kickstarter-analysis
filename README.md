@@ -3,7 +3,7 @@
 ## Overview of Project
 
 ### Purpose
-Louise's play *Fever* came close to completing it's fundraising goal. She is curious about other theatre kickstarters and how they did based on their launch date and fundraising goals. Given the dataset of kickstarter campaigns by Louise (available to download [here](/Kickstarter_Challenge.xlsx)), we are going to create new columns, pivot tables, and charts to help visualize the kickstarters to her liking. In doing so we will sharpen our Microsoft Excel data management and visualization skills. 
+Louise's play *Fever* came close to completing it's fundraising goal. She is curious about other theatre kickstarters and how they did based on their launch date and fundraising goals. Given the dataset of kickstarter campaigns by Louise (available to download [here](/Kickstarter_Challenge.zip)), we are going to create new columns, pivot tables, and charts to help visualize the kickstarters to her liking. In doing so we will sharpen our Microsoft Excel data management and visualization skills. 
 
 ## Analysis and Challenges
 
