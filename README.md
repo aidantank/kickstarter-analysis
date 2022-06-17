@@ -3,7 +3,7 @@
 ## Overview of Project
 
 ### Purpose
-Louise's play *Fever* came close to completing it's fundraising goal. She is curious about other theatre kickstarters and how they did based on their launch date and fundraising goals. Given the dataset of kickstarter campaigns by Louise (available to download [here](/Kickstarter_Challenge.zip)), we are going to create new columns, pivot tables, and charts to help visualize the kickstarters to her liking. In doing so we will sharpen our Microsoft Excel data management and visualization skills. 
+Louise's play *Fever* came close to completing it's fundraising goal. She is curious about other theatre kickstarters and how they did based on their launch date and fundraising goals. Given the dataset of kickstarter campaigns by Louise (available to download [here](/Kickstarter_Challenge.xlsx)), we are going to create new columns, pivot tables, and charts to help visualize the kickstarters to her liking. In doing so we will sharpen our Microsoft Excel data management and visualization skills. 
 
 ## Analysis and Challenges
 
@@ -20,11 +20,11 @@ For duration of time, a good visualization method is the line chart. Using our n
 >*Figure 1*
 
 ### Analysis of Outcomes Based on Goals
-For the analysis of outcomes based on goals a table was created to show the number of successful, failed, and cancelled kickstarters there were based on what their goal amounts were. We needed to use the `countifs()` formula in excel to gather the total number of projects by each outcome. `Countifs()` takes an array of data as the first parameter and a condition to filter the data as the second. This can be performed multiple times and so we can effectively total the number of successful theater kickstarters for various goal amounts. The functions looks like: 
+For the analysis of outcomes based on goals a table was created to show the number of successful, failed, and cancelled kickstarters there were based on what their goal amounts were. We needed to use the `countifs()` formula in excel to gather the total number of projects by each outcome. Countifs() takes an array of data as the first parameter and a condition to filter the data as the second. This can be performed multiple times and so we can effectively total the number of successful theater kickstarters for various goal amounts. The functions looks like: 
 ```
 = COUNTIFS(Kickstarter!$D:$D,"<1000",Kickstarter!$F:$F,"successful",Kickstarter!$R:$R,"plays")
 ```
-Here we are looking at only play kickstarters that are successful with a goal less than $1,000. We are then able to generate percentages using `(Number of projects filtered/total number of projects)*100`. The table generated is below as *Table 1*. Finally we created another line chart to show the relationship between outcomes and goal amounts that is below:
+Here we are looking at only play kickstarters that are successful with a goal less than $1,000. We are then able to generate percentages using `(Number of projects filtered/total projects)` and changing the format to percentage. The table generated is below as *table 1*. Finally we created another line chart to show the relationship between outcomes and goal amounts that is below:
 
 ![](/Resources/Outcomes_vs_Goals_Table.PNG)
 >*Table 1*
